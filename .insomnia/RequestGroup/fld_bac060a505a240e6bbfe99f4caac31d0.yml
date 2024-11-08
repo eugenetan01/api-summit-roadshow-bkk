@@ -1,0 +1,14 @@
+_id: fld_bac060a505a240e6bbfe99f4caac31d0
+type: RequestGroup
+parentId: wrk_b98e98aa17c445ee8de96e8cb6bdd9f6
+modified: 1731047949344
+created: 1731047949344
+name: AI
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1731047949344
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null

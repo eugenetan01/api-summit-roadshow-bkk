@@ -1,0 +1,50 @@
+_id: req_2bcedc07464b4ef5bda66f580a785e43
+type: Request
+parentId: fld_bac060a505a240e6bbfe99f4caac31d0
+modified: 1731048502541
+created: 1731048275568
+url: http://{{ _.host_ai }}/1/chat
+name: ai-proxy-cohere
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a scientist."
+        },
+        {
+          "role": "user",
+          "content": "What is the theory of relativity?"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{ _.token }}"
+    id: pair_ba982767ae31406c964508d8cf1b8f2b
+  - name: Content-Type
+    value: application/json
+    id: pair_69a97dbe5832410785394f140de98770
+  - name: User-Agent
+    value: insomnia/8.6.1
+    id: pair_5f81a397458f45b1b9820c975b66b5b6
+  - name: x-llm
+    value: cohere
+    id: pair_6c3a7797af314444934302e3893c6d4d
+authentication: {}
+preRequestScript: null
+metaSortKey: -1731048093982
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

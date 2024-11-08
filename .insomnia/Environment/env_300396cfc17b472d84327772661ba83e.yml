@@ -1,7 +1,7 @@
 _id: env_300396cfc17b472d84327772661ba83e
 type: Environment
 parentId: env_02bcd71a2305436db649a057f49173be
-modified: 1731047774462
+modified: 1731048085121
 created: 1731047774462
 name: OpenAPI env localhost:3000
 data:
@@ -12,6 +12,9 @@ data:
   bearerToken: bearerToken
   base_url: "{{ _.host }}"
   id: b88f7029-fa93-41a5-9462-4884e544bf63
+  token: Basic
+    MG9hY2djZ2I3bmhGQm5TTlMxZDc6NmwzblYzWG5BNFdDWm02aFN1Q0I5SXR0Q1pjVGIxMG9vTzEzYS13VUN6NFMxSHd4YzlmUzNCQ3FLckRPWHp6Yw==
+  host_ai: shared-services-hybrid.kong-sales-engineering.com
 dataPropertyOrder:
   "&":
     - scheme
@@ -21,6 +24,8 @@ dataPropertyOrder:
     - bearerToken
     - base_url
     - id
+    - token
+    - host_ai
 color: null
 isPrivate: false
 metaSortKey: 1730958511888

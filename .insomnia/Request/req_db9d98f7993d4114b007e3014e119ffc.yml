@@ -1,0 +1,50 @@
+_id: req_db9d98f7993d4114b007e3014e119ffc
+type: Request
+parentId: fld_bac060a505a240e6bbfe99f4caac31d0
+modified: 1731048095433
+created: 1731047957047
+url: http://{{ _.host_ai }}/14/openai/chat/completions
+name: Semantic caching
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a cook."
+        },
+        {
+          "role": "user",
+          "content": "How do I prepare a steak?"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{ _.token }}"
+    id: pair_366e0be1d2154487b84b83c0b62c454e
+  - name: Content-Type
+    value: application/json
+    id: pair_1bf6abce07bd438c80fd4f8d76040053
+  - name: User-Agent
+    value: insomnia/9.2.0
+    id: pair_b27df974a6ef4e94b75fbe0a8049d4ed
+  - name: x-llm
+    value: openai
+    id: pair_5c0c987a479a4c29845fa75e0549b1d0
+authentication: {}
+preRequestScript: null
+metaSortKey: -1731047957047
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
